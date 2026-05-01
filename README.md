@@ -6,9 +6,7 @@ A responsive React application that lets you explore information about every cou
 
 ## 🔗 Live Demo
 
-[View on Vercel →](https://your-vercel-url.vercel.app)
-
-> Replace the link above with your actual Vercel deployment URL.
+[View on Vercel →]( https://rest-countries-api-react-project.vercel.app)
 
 ---
 
