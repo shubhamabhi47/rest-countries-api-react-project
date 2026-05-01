@@ -134,15 +134,3 @@ This project uses the public [REST Countries API](https://restcountries.com) —
 | `/v3.1/all?fields=name,flags,population,region,capital,cca3` | Home page country list |
 | `/v3.1/name/:name?fullText=true` | Country detail page |
 | `/v3.1/alpha/:code` | Resolving border country names |
-
----
-
-## 📸 Screenshots
-
-> Add screenshots of your app here after deployment — light mode, dark mode, and the detail page make for a great showcase.
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
