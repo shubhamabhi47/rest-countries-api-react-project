@@ -5,7 +5,7 @@ import CountriesList from "./CountriesList";
 import { useTheme } from "../hooks/useTheme.jsx";
 
 export default function Home() {
-  const [query, setQuery] = useState(" ");
+  const [query, setQuery] = useState("");
   const [isDark] = useTheme();
 
   return (

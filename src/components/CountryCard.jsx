@@ -8,10 +8,20 @@ export default function CountryCard({
   region,
   capital,
 }) {
+  console.log({
+    countryName,
+    flag,
+    population,
+    region,
+    capital,
+  });
   return (
     <Link className="country-card" to={`/${countryName}`}>
       <div className="flag-container">
-        <img src={flag} alt={countryName + "Flag"} />
+        <img
+          src="https://placehold.co/320x200?text=Flag"
+          alt={`${countryName} Flag`}
+        />
       </div>
       <div className="card-text">
         <h3 className="card-title">{countryName}</h3>
