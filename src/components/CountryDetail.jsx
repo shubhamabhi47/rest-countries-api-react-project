@@ -52,7 +52,7 @@ export default function CountryDetail() {
         });
       })
       .catch((err) => {
-        console.log(err);
+        // console.log(err);
         setNotFound(true);
       });
   }, [countryName]);

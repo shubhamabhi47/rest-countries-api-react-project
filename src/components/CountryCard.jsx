@@ -8,13 +8,7 @@ export default function CountryCard({
   region,
   capital,
 }) {
-  console.log({
-    countryName,
-    flag,
-    population,
-    region,
-    capital,
-  });
+ 
   return (
     <Link className="country-card" to={`/${countryName}`}>
       <div className="flag-container">

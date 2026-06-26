@@ -3,7 +3,6 @@ import { useTheme } from "../hooks/useTheme.jsx";
 
 const Header = () => {
   const [isDark, setIsDark] = useTheme();
-  console.log(isDark);
   return (
     <header className={`header-container ${isDark ? "dark" : ""}`}>
       <div className="header-content">
